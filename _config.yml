@@ -320,7 +320,9 @@ filtered_bibtex_keywords:
   [
     abbr,
     abstract,
+    abstract_pt,
     additional_info,
+    additional_info_pt,
     altmetric,
     annotation,
     arxiv,
@@ -342,6 +344,8 @@ filtered_bibtex_keywords:
     selected,
     slides,
     supp,
+    note_pt,
+    title_pt,
     video,
     website,
   ]

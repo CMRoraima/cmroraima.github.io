@@ -1526,3 +1526,30 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+// Simple language switcher.
+#lang-toggle {
+  padding: 12px 0.4rem 0;
+  border: 0;
+  background-color: inherit;
+  color: var(--global-text-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+
+  .lang-code {
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+}
+
+html[data-lang="en"] .lang-pt-only,
+html[data-lang="pt"] .lang-en-only {
+  display: none !important;
+}
