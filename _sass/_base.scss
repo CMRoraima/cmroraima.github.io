@@ -304,6 +304,10 @@ ul.task-list input[type="checkbox"] {
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
 
+    span {
+      color: inherit;
+    }
+
     &:hover {
       color: var(--global-hover-color);
     }
@@ -1546,6 +1550,7 @@ mjx-container[jax="CHTML"][display="true"] {
     font-size: 0.75rem;
     font-weight: 600;
     line-height: 1;
+    color: inherit;
   }
 }
 
