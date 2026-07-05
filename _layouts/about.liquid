@@ -42,26 +42,32 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit" data-i18n="home.news">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
+      <section class="home-section home-announcements">
+        <h2>
+          <a href="{{ '/news/' | relative_url }}" style="color: inherit" data-i18n="home.news">news</a>
+        </h2>
+        {% include news.liquid limit=true %}
+      </section>
     {% endif %}
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit" data-i18n="home.latest_posts">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
+      <section class="home-section home-latest-posts">
+        <h2>
+          <a href="{{ '/blog/' | relative_url }}" style="color: inherit" data-i18n="home.latest_posts">latest posts</a>
+        </h2>
+        {% include latest_posts.liquid %}
+      </section>
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit" data-i18n="home.selected_publications">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <section class="home-section home-selected-publications">
+        <h2>
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit" data-i18n="home.selected_publications">selected publications</a>
+        </h2>
+        {% include selected_papers.liquid %}
+      </section>
     {% endif %}
 
     <!-- Social -->

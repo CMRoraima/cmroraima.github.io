@@ -1553,3 +1553,9 @@ html[data-lang="en"] .lang-pt-only,
 html[data-lang="pt"] .lang-en-only {
   display: none !important;
 }
+
+.home-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--global-divider-color); // Gives the thin line
+}
