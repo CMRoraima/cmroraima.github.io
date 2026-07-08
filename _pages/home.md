@@ -198,6 +198,55 @@ They were discovered by Albert von Kölliker in 1857 in the voluntary muscles of
   </div>
 </section>
 
+
+<section class="home-section languages-section">
+  <h2>Languages</h2>
+
+  <h3>Cariban languages</h3>
+  <div class="languages-table-wrap">
+    <table class="languages-table">
+      <thead>
+        <tr>
+          <th>Language</th>
+          <th>Cariban subgroup</th>
+          <th>Branch</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Macuxi</td>
+          <td>Pemón-Kapon (Macushi-Kapon)</td>
+          <td>Northern / Guianan</td>
+        </tr>
+        <tr>
+          <td>Taurepang</td>
+          <td>Pemón-Kapon (Pemonic)</td>
+          <td>Northern / Guianan</td>
+        </tr>
+        <tr>
+          <td>Ingarikó</td>
+          <td>Pemón-Kapon (Kapon-related)</td>
+          <td>Northern / Guianan</td>
+        </tr>
+        <tr>
+          <td>Waiwai</td>
+          <td>Waiwai subgroup</td>
+          <td>Guianan / Northern Amazonian</td>
+        </tr>
+        <tr>
+          <td>Ye'kwana</td>
+          <td>Independent subgroup (Maquiritari)</td>
+          <td>Northern / Central Cariban</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Yanomaman language</h3>
+  <p>Sanöma</p>
+</section>
+
+
 </div>
 
 <div class="lang-pt-only" markdown="1">
@@ -367,6 +416,99 @@ Elas foram descobertas por Albert von Kölliker em 1857, nos músculos voluntár
       </div>
     </article>
   </div>
+</section>
+
+<section class="home-section languages-section">
+  <h2>Línguas</h2>
+
+<!-- Omitting this AI translation for now
+  <h3>Línguas Caribe</h3>
+  <div class="languages-table-wrap">
+    <table class="languages-table">
+      <thead>
+        <tr>
+          <th>Língua</th>
+          <th>Subgrupo Caribe</th>
+          <th>Ramo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Macuxi</td>
+          <td>Pemón-Kapon (Macushi-Kapon)</td>
+          <td>Norte / Guianense</td>
+        </tr>
+        <tr>
+          <td>Taurepang</td>
+          <td>Pemón-Kapon (Pemonik)</td>
+          <td>Norte / Guianense</td>
+        </tr>
+        <tr>
+          <td>Ingarikó</td>
+          <td>Pemón-Kapon (relacionado a Kapon)</td>
+          <td>Norte / Guianense</td>
+        </tr>
+        <tr>
+          <td>Waiwai</td>
+          <td>Subgrupo Waiwai</td>
+          <td>Guianense / Norte Amazônico</td>
+        </tr>
+        <tr>
+          <td>Ye'kwana</td>
+          <td>Subgrupo independente (Maquiritari)</td>
+          <td>Norte / Caribe Central</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Língua Yanomami</h3>
+  <p>Sanöma</p>
+</section>
+-->
+
+  <h3>Cariban languages</h3>
+  <div class="languages-table-wrap">
+    <table class="languages-table">
+      <thead>
+        <tr>
+          <th>Language</th>
+          <th>Cariban subgroup</th>
+          <th>Branch</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Macuxi</td>
+          <td>Pemón-Kapon (Macushi-Kapon)</td>
+          <td>Northern / Guianan</td>
+        </tr>
+        <tr>
+          <td>Taurepang</td>
+          <td>Pemón-Kapon (Pemonic)</td>
+          <td>Northern / Guianan</td>
+        </tr>
+        <tr>
+          <td>Ingarikó</td>
+          <td>Pemón-Kapon (Kapon-related)</td>
+          <td>Northern / Guianan</td>
+        </tr>
+        <tr>
+          <td>Waiwai</td>
+          <td>Waiwai subgroup</td>
+          <td>Guianan / Northern Amazonian</td>
+        </tr>
+        <tr>
+          <td>Ye'kwana</td>
+          <td>Independent subgroup (Maquiritari)</td>
+          <td>Northern / Central Cariban</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Yanomaman language</h3>
+  <p>Sanöma</p>
 </section>
 
 </div>
