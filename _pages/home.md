@@ -49,7 +49,7 @@ They were discovered by Albert von Kölliker in 1857 in the voluntary muscles of
       <div class="team-card-body">
         <h4>Suzi Lima</h4>
         <p>Professor, Principal Investigator</p>
-        <p>University of Toronto; PPGL-UFRR</p>
+        <p>University of Toronto; <a href="https://ufrr.br/ppgl/">PPGL-UFRR</a></p>
         <div class="team-links">
           <a href="https://suzilima.blog" aria-label="Suzi Lima website" title="Website"><i class="fa-solid fa-globe"></i></a>
           <a href="http://lattes.cnpq.br/4962204381218422" aria-label="Suzi Lima Curriculum Lattes" title="Curriculum Lattes"><i class="ai ai-lattes"></i></a>
@@ -61,7 +61,7 @@ They were discovered by Albert von Kölliker in 1857 in the voluntary muscles of
       <div class="team-card-body">
         <h4>Isabella Coutinho Costa</h4>
         <p>Professor, Co-Principal Investigator</p>
-        <p>UERR; PPGL-UFRR</p>
+        <p>UERR; <a href="https://ufrr.br/ppgl/">PPGL-UFRR</a></p>
         <div class="team-links">
           <a href="https://sites.google.com/view/isabellacoutinhocosta/in%C3%ADcio?authuser=0" aria-label="Isabella Coutinho Costa website" title="Website"><i class="fa-solid fa-globe"></i></a>
           <a href="https://lattes.cnpq.br/2339330116944671" aria-label="Isabella Coutinho Costa Curriculum Lattes" title="Curriculum Lattes"><i class="ai ai-lattes"></i></a>
@@ -269,7 +269,7 @@ Elas foram descobertas por Albert von Kölliker em 1857, nos músculos voluntár
       <div class="team-card-body">
         <h4>Suzi Lima</h4>
         <p>Professora, Investigadora Principal</p>
-        <p>Universidade de Toronto; PPGL-UFRR</p>
+        <p>Universidade de Toronto; <a href="https://ufrr.br/ppgl/">PPGL-UFRR</a></p>
         <div class="team-links">
           <a href="https://suzilima.blog" aria-label="Site de Suzi Lima" title="Site"><i class="fa-solid fa-globe"></i></a>
           <a href="http://lattes.cnpq.br/4962204381218422" aria-label="Currículo Lattes de Suzi Lima" title="Currículo Lattes"><i class="ai ai-lattes"></i></a>
@@ -281,7 +281,7 @@ Elas foram descobertas por Albert von Kölliker em 1857, nos músculos voluntár
       <div class="team-card-body">
         <h4>Isabella Coutinho Costa</h4>
         <p>Professora, Co-Investigadora Principal</p>
-        <p>UERR; PPGL-UFRR</p>
+        <p>UERR; <a href="https://ufrr.br/ppgl/">PPGL-UFRR</a></p>
         <div class="team-links">
           <a href="https://sites.google.com/view/isabellacoutinhocosta/in%C3%ADcio?authuser=0" aria-label="Site de Isabella Coutinho Costa" title="Site"><i class="fa-solid fa-globe"></i></a>
           <a href="https://lattes.cnpq.br/2339330116944671" aria-label="Currículo Lattes de Isabella Coutinho Costa" title="Currículo Lattes"><i class="ai ai-lattes"></i></a>
