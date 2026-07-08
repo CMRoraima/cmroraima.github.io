@@ -1,6 +1,6 @@
 ---
 ---
-<div class="row">
+<div class="row publication-entry">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
@@ -46,7 +46,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-7{% else %}col-md-9{% endif %}">
     <!-- Title -->
     <div class="title">
       {% if entry.title_pt %}
@@ -200,7 +200,7 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
+    {% capture publication_note %}
       {% if entry.note_pt %}
         {% if entry.note %}
           <span class="lang-en-only">{{ entry.note | strip }}</span>
@@ -209,7 +209,13 @@
       {% else %}
         {{ entry.note | strip }}
       {% endif %}
-    </div>
+    {% endcapture %}
+    {% assign publication_note_text = publication_note | strip_html | strip %}
+    {% if publication_note_text != "" %}
+      <div class="periodical">
+        {{ publication_note | strip }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
@@ -219,7 +225,7 @@
         </a>
       {% endif %}
       {% if entry.abstract or entry.abstract_pt %}
-        <a class="abstract btn btn-sm z-depth-0" role="button" data-i18n="publication.abstract_button">Abs</a>
+        <a class="abstract btn btn-sm z-depth-0" role="button" data-i18n="publication.abstract_button">Abstract</a>
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
@@ -241,18 +247,27 @@
         {% endif %}
       {% endif %}
       {% if entry.pdf %}
-        {% if entry.pdf contains '://' %}
+        {% if entry.pdf == '#' %}
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        {% elsif entry.pdf contains '://' %}
           <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
         {% else %}
           <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
         {% endif %}
       {% endif %}
       {% if entry.supp %}
-        {% if entry.supp contains '://' %}
+        {% if entry.supp == '#' %}
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Supp</a>
+        {% elsif entry.supp contains '://' %}
           <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
         {% else %}
           <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
         {% endif %}
+      {% endif %}
+      {% if entry.link %}
+        <a href="{{ entry.link }}" class="btn btn-sm z-depth-0 publication-link-icon" role="button" aria-label="Link" title="Link">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
       {% endif %}
       {% if entry.video and site.enable_video_embedding %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
@@ -421,6 +436,33 @@
       <div class="abstract hidden">
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
+    {% endif %}
+  </div>
+  <div class="{% if site.enable_publication_thumbnails %}col-sm-3{% else %}col-md-3{% endif %} publication-badge-col">
+    {% if entry.abbr %}
+      <abbr class="publication-abbr-badge">
+        
+      {% comment %}    
+      Remove <abbr class="publication-abbr-badge"> and uncomment the below code if you want conferences
+      to receive the color as per the specifications in venues.yml
+      
+        {% assign venue_style = null %}
+        {% if site.data.venues[entry.abbr].color != blank %}
+          {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
+        {% endif %}
+        <abbr
+          class="publication-abbr-badge"
+          {% if venue_style %}
+            {{ venue_style }}
+          {% endif -%}
+      > {% endcomment %}
+
+        {% if site.data.venues[entry.abbr].url %}
+          <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+        {% else %}
+          {{ entry.abbr }}
+        {% endif %}
+      </abbr>
     {% endif %}
   </div>
 </div>

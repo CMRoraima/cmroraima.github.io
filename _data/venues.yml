@@ -7,3 +7,43 @@
 
 "Vision":
   color: "#009f36"
+
+"LSA":
+  url: https://www.linguisticsociety.org/
+  color: "#6b8e23"
+
+"NELS":
+  url: https://nelsconference.org/
+  color: "#8b5e3c"
+
+"SALT":
+  url: https://saltconf.github.io/
+  color: "#3f7cac"
+
+"WCCFL":
+  url: https://www.linguisticsociety.org/resource/west-coast-conference-formal-linguistics-wccfl
+  color: "#a85751"
+
+"GLOW":
+  url: https://glowlinguistics.org/
+  color: "#7b6d8d"
+
+"SuB":
+  url: https://subconference.org/
+  color: "#4d8f8c"
+
+"CLS":
+  url: https://chicagolinguisticsociety.org/
+  color: "#9f7a2f"
+
+"AFLA":
+  url: https://www.afla.org/
+  color: "#5e7f9f"
+
+"SULA":
+  url: https://sula.linguistlist.org/
+  color: "#8a6f3d"
+
+"BUCLD":
+  url: https://www.bu.edu/bucld/
+  color: "#8b1e3f"
