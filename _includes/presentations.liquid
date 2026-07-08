@@ -1,0 +1,54 @@
+{% for group in site.data.presentations %}
+  <h2 class="bibliography">{{ group.year }}</h2>
+  <ol class="bibliography">
+    {% for presentation in group.items %}
+      <li>
+        <div class="row publication-entry">
+          <div class="col-md-9">
+            <div class="title">
+              {% if presentation.title_pt %}
+                <span class="lang-en-only">{{ presentation.title }}</span>
+                <span class="lang-pt-only">{{ presentation.title_pt }}</span>
+              {% else %}
+                {{ presentation.title }}
+              {% endif %}
+            </div>
+            <div class="author">{{ presentation.authors }}</div>
+            <div class="periodical"><em>{{ presentation.venue }}</em>, {{ group.year }}</div>
+            {% if presentation.links %}
+              <div class="links">
+                {% for link in presentation.links %}
+                  {% if link.type == "abstract" %}
+                    <a class="abstract btn btn-sm z-depth-0" role="button" data-i18n="publication.abstract_button">{{ link.label }}</a>
+                  {% elsif link.type == "icon" %}
+                    <a href="{{ link.url }}" class="btn btn-sm z-depth-0 publication-link-icon" role="button" aria-label="{{ link.label }}" title="{{ link.label }}">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                  {% else %}
+                    <a href="{{ link.url }}" class="btn btn-sm z-depth-0" role="button">{{ link.label }}</a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+            {% if presentation.abstract %}
+              <div class="abstract hidden">
+                <p>{{ presentation.abstract }}</p>
+              </div>
+            {% endif %}
+          </div>
+          <div class="col-md-3 publication-badge-col">
+            {% if presentation.abbr %}
+              <abbr class="publication-abbr-badge">
+                {% if presentation.venue_url %}
+                  <a href="{{ presentation.venue_url }}">{{ presentation.abbr }}</a>
+                {% else %}
+                  {{ presentation.abbr }}
+                {% endif %}
+              </abbr>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+{% endfor %}

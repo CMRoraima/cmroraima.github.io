@@ -11,6 +11,7 @@ const I18N_DICT = {
 
     "nav.home": "Home",
     "nav.publications": "Publications",
+    "nav.presentations": "Presentations",
     "nav.projects": "Projects",
     "nav.blog": "Blog",
     "nav.cv": "CV",
@@ -45,6 +46,7 @@ const I18N_DICT = {
 
     "nav.home": "Inicio",
     "nav.publications": "Publicacoes",
+    "nav.presentations": "Apresentacoes",
     "nav.projects": "Projetos",
     "nav.blog": "Blog",
     "nav.cv": "CV",

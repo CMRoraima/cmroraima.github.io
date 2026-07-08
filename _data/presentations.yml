@@ -1,0 +1,54 @@
+- year: 2026
+  items:
+    - title: Evidentiality and Speaker Commitment in Indigenous Language Documentation
+      title_pt: Evidencialidade e compromisso do falante na documentação de línguas indígenas
+      authors: Barbara Partee, Noam Chomsky, and Adele Goldberg
+      venue: Linguistic Society of America Annual Meeting
+      abbr: LSA
+      venue_url: https://www.linguisticsociety.org/
+      abstract: Placeholder abstract for a future presentation on evidentiality, speaker commitment, and fieldwork methods.
+      links:
+        - label: Abstract
+          type: abstract
+        - label: PDF
+          url: "#"
+        - label: Link
+          type: icon
+          url: "#"
+    - title: Nominal Possession and Classifier Systems in Field Elicitation
+      title_pt: Posse nominal e sistemas classificatórios em elicitação de campo
+      authors: Judith Aissen, Joan Bresnan, and Lisa Matthewson
+      venue: North East Linguistic Society
+      abbr: NELS
+      venue_url: https://nelsconference.org/
+      links:
+        - label: PDF
+          url: "#"
+        - label: Supp
+          url: "#"
+- year: 2025
+  items:
+    - title: Context-Sensitive Quantification in Amazonian Languages
+      title_pt: Quantificação sensível ao contexto em línguas amazônicas
+      authors: Paul Kiparsky, Maria Polinsky, and Irene Heim
+      venue: Semantics and Linguistic Theory
+      abbr: SALT
+      venue_url: https://saltconf.github.io/
+      abstract: Placeholder abstract for a future presentation on quantification, context, and semantic variation.
+      links:
+        - label: Abstract
+          type: abstract
+        - label: Supp
+          url: "#"
+    - title: Narrative Structure, Word Order, and Information Flow
+      title_pt: Estrutura narrativa, ordem de palavras e fluxo informacional
+      authors: Norvin Richards, Angelika Kratzer, and Sabine Iatridou
+      venue: West Coast Conference on Formal Linguistics
+      abbr: WCCFL
+      venue_url: https://www.linguisticsociety.org/resource/west-coast-conference-formal-linguistics-wccfl
+      links:
+        - label: Link
+          type: icon
+          url: "#"
+        - label: PDF
+          url: "#"
