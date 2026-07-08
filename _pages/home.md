@@ -39,7 +39,7 @@ A mitochondrion (pl. mitochondria) is an organelle found in the cells of most 
 
 They were discovered by Albert von Kölliker in 1857 in the voluntary muscles of insects. The term mitochondrion, meaning "a thread-like granule", was coined by Carl Benda in 1898. The mitochondrion is popularly nicknamed the "powerhouse of the cell", a phrase popularized by Philip Siekevitz in a 1957 Scientific American article of the same name.
 
-<section class="team-section">
+<section class="home-section team-section">
   <h2>Team</h2>
 
   <h3>Professors</h3>
@@ -210,7 +210,7 @@ A mitocôndria (plural: mitocôndrias) é uma organela encontrada nas células d
 
 Elas foram descobertas por Albert von Kölliker em 1857, nos músculos voluntários de insetos. O termo mitocôndria, que significa "grânulo em forma de fio", foi cunhado por Carl Benda em 1898. A mitocôndria é popularmente chamada de "usina de força da célula" (ou "central de energia"), expressão popularizada por Philip Siekevitz em um artigo de 1957 da revista *Scientific American* que levava esse mesmo título.
 
-<section class="team-section">
+<section class="home-section team-section">
   <h2>Equipe</h2>
 
   <h3>Professoras</h3>

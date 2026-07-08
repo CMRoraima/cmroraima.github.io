@@ -46,9 +46,6 @@ body.sticky-bottom-footer {
 
 .team-section {
   clear: both;
-  margin-top: 2.5rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--global-divider-color);
   text-align: center;
 
   h2 {
@@ -62,12 +59,14 @@ body.sticky-bottom-footer {
 }
 
 .team-grid {
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 0.9rem;
 }
 
 .team-card {
+  flex: 0 1 clamp(120px, calc((100% - 4.5rem) / 6), 150px);
   min-width: 0;
   overflow: hidden;
   border: 1px solid var(--global-divider-color);
@@ -139,14 +138,14 @@ body.sticky-bottom-footer {
 }
 
 @media (max-width: 1199.98px) {
-  .team-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+  .team-card {
+    flex-basis: clamp(120px, calc((100% - 2.7rem) / 4), 150px);
   }
 }
 
 @media (max-width: 767.98px) {
-  .team-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .team-card {
+    flex-basis: clamp(120px, calc((100% - 0.9rem) / 2), 150px);
   }
 }
 

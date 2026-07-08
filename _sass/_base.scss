@@ -1560,7 +1560,14 @@ html[data-lang="pt"] .lang-en-only {
 }
 
 .home-section {
-  margin-top: 2rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--global-divider-color); // Gives the thin line
+  margin-top: 0;
+  padding-top: 1.5rem;
+  border-top: 0;
+}
+
+.home-section::before {
+  content: "";
+  display: block;
+  border-top: 1px solid var(--global-divider-color);
+  margin-bottom: 2rem;
 }
