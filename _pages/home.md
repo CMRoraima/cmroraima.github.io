@@ -8,7 +8,7 @@ subtitle_i18n: home.subtitle
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: brasil.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p data-i18n="home.office">555 your office number</p>
