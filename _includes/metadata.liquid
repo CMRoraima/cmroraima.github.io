@@ -24,7 +24,7 @@
   {% if site.title == 'blank' %}
     {% capture title %}{{ author_name }}{% endcapture %}
   {% else %}
-    {% capture title %}{{ site.title }}{% endcapture %}
+    {% capture title %}{{ site.abbreviation | default: site.title }}{% endcapture %}
   {% endif %}
   {% if page.url == '/blog/index.html' %}
     {{ page.title }} | {{ title }}

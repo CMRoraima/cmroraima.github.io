@@ -3,7 +3,7 @@ layout: about
 title: Home
 title_i18n: nav.home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
 subtitle_i18n: home.subtitle
 
 profile:

@@ -9,6 +9,8 @@ const I18N_DICT = {
     "lang.toggle.title": "Switch language to Portuguese",
     "lang.code": "EN",
 
+    "site.title": "Counting and Measuring in Roraima",
+
     "nav.home": "Home",
     "nav.publications": "Publications",
     "nav.presentations": "Presentations",
@@ -21,7 +23,7 @@ const I18N_DICT = {
     "nav.books": "Books",
     "nav.news": "News",
 
-    "home.subtitle": "Affiliations. Address. Contacts. Motto. Etc.",
+    "home.subtitle": "",
     "home.office": "555 your office number",
     "home.address": "123 your address street",
     "home.city": "Your City, State 12345",
@@ -45,6 +47,8 @@ const I18N_DICT = {
     "lang.toggle.title": "Mudar idioma para ingles",
     "lang.code": "PT",
 
+    "site.title": "Contagem e Medida em Roraima",
+
     "nav.home": "Inicio",
     "nav.publications": "Publicacoes",
     "nav.presentations": "Apresentacoes",
@@ -57,7 +61,7 @@ const I18N_DICT = {
     "nav.books": "Livros",
     "nav.news": "Noticias",
 
-    "home.subtitle": "Afiliacoes. Endereco. Contatos. Lema. Etc.",
+    "home.subtitle": "",
     "home.office": "555 seu numero de escritorio",
     "home.address": "123 sua rua",
     "home.city": "Sua cidade, estado 12345",
